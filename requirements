@@ -10,6 +10,7 @@ fi
 # check Xcode
 if ! which xcodebuild >/dev/null 2>&1; then
     echo "[Error] Dependency Error. not installed XCode and XCode CommandLine Tools"
+    exit
 else
     echo "[Install] Already exists dependency XCode and XCode CommandLine Tools"
 fi
